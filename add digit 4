@@ -1,0 +1,16 @@
+int num=2875;
+		int sum=0;
+		while(num!=0)
+		{
+			int digit=num%10;
+			sum=sum*10+digit;
+			num/=10;
+			
+		}
+		
+		while(sum!=0)
+		{
+			int digit=sum%10;
+			System.out.print(digit+4);
+			sum/=10;
+		}
